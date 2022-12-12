@@ -1,0 +1,172 @@
+/*navbar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #b4b4b4;
+}
+
+/*background*/
+html {
+  background: url(pict/beach1.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.konten{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsla(168, 30%, 77%, 0.6);
+}
+
+/*isi home*/
+.konten img{
+  width: 500px;
+  height: 500px;
+}
+
+.teks{
+  margin-right: 150px;
+  text-align: center;
+}
+
+.teks h1{
+  font-family: Copperplate;
+  font-size: 40pt;
+}
+
+.teks p{
+  font-family: Lucida Handwriting;
+  font-size: 20pt;
+}
+
+/*footer contact*/
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f9f9f9;
+}
+
+/*isi menu*/
+.mkonten{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsla(168, 30%, 77%, 0.6);
+}
+
+.mkonten img{
+  width: 500px;
+  height: 500px;
+}
+
+.mteks{
+  margin-right: 150px;
+  justify-content: center;
+}
+
+.mteks h1{
+  font-family: Lucida Handwriting;
+  font-size: 40pt;
+}
+
+.mteks p{
+  font-family: Garamond;
+  font-size: 20pt;
+}
+
+/*isi lokasi*/
+.lteks{
+  margin-right: 150px;
+  text-align: center;
+}
+
+.lteks p{
+  font-family: Garamond;
+  font-size: 20pt;
+}
+
+.lteks h1{
+  font-family: Lucida Handwriting;
+  font-size: t;
+}
+
+/*dropdown*/
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color:#b4b4b4
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color:#b4b4b4;
+}
+
+/*isi about*/
+.akonten{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsla(168, 30%, 77%, 0.6);
+}
+
+.ateks{
+  margin-right: 150px;
+  justify-content: center;
+}
+
+.ateks h1{
+  font-family: Lucida Handwriting;
+  font-size: 40pt;
+}
+
+.ateks p{
+  font-family: Garamond;
+  font-size: 20pt;
+}
+
